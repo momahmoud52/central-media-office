@@ -1,0 +1,449 @@
+{
+  "users": [
+    {
+      "id": "u-admin",
+      "name": "مدير النظام",
+      "email": "admin@media.local",
+      "role": "Admin",
+      "salt": "35f885288245d7627b894c5962bac89b",
+      "passwordHash": "03e74de86200915dc486a50d83fbb0b1eb18adc8ee3406aede02982124446595",
+      "twoFactorEnabled": true
+    },
+    {
+      "id": "u-pub",
+      "name": "مسؤول النشر",
+      "email": "publisher@media.local",
+      "role": "Publisher",
+      "salt": "33542343e04af454605140576c06b3ce",
+      "passwordHash": "900d73a26c852ef45e4c4482a9283ec4cc5c440d31983f1966bb3b742cb3b970",
+      "twoFactorEnabled": false
+    },
+    {
+      "id": "u-m1",
+      "name": "ليان منصور",
+      "email": "member@media.local",
+      "role": "Member",
+      "salt": "53f9b18de0a70d5320d7a798980218e1",
+      "passwordHash": "8b4d515bbc24947a913bbfee2024f7e627b6da462d5ad14f19ac8f69ff505c60",
+      "memberId": "m1",
+      "twoFactorEnabled": false
+    },
+    {
+      "id": "u-m2",
+      "name": "آدم الراشد",
+      "email": "adam@media.local",
+      "role": "Member",
+      "salt": "3700ca2511149a9091713e06746f4aed",
+      "passwordHash": "8ade69d6e1de60010154123297108007a109c2d923a550c37903392c5c70b339",
+      "memberId": "m2",
+      "twoFactorEnabled": false
+    },
+    {
+      "id": "u-m3",
+      "name": "سارة العلي",
+      "email": "sara@media.local",
+      "role": "Member",
+      "salt": "eaf6844ddeba55e4afee244886863047",
+      "passwordHash": "49c1fa39a421881b7caee32ceaec90376b65f3db368bb84ba6ccec31009b0f5b",
+      "memberId": "m3",
+      "twoFactorEnabled": false
+    },
+    {
+      "id": "u-m4",
+      "name": "نور الحربي",
+      "email": "nour@media.local",
+      "role": "Member",
+      "salt": "b32a2f31005333cdb107dfeb5c507e08",
+      "passwordHash": "626411363a7447a74245341ca106f3967b3228bbb69f6af92e42633b613c99e2",
+      "memberId": "m4",
+      "twoFactorEnabled": false
+    },
+    {
+      "id": "u-m5",
+      "name": "مازن جابر",
+      "email": "mazen@media.local",
+      "role": "Member",
+      "salt": "a159c940542fd37aa1015de1642c0cb1",
+      "passwordHash": "c31cad664ed94eb79139e598e0ab7e946d6e6aa99c432d8d1e4dcc1f7e7ecb3d",
+      "memberId": "m5",
+      "twoFactorEnabled": false
+    },
+    {
+      "id": "u-m6",
+      "name": "ريم فهد",
+      "email": "reem@media.local",
+      "role": "Member",
+      "salt": "857ae0b9b991f0151258f8615a7b33b0",
+      "passwordHash": "8d912532524cde302b4abdf4976c77727fdafa9989e1931558e0053dd8ec30dc",
+      "memberId": "m6",
+      "twoFactorEnabled": false
+    }
+  ],
+  "members": [
+    {
+      "id": "m1",
+      "userId": "u-m1",
+      "name": "ليان منصور",
+      "title": "قائدة محتوى",
+      "department": "الإنتاج",
+      "role": "Member",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=320&q=80",
+      "status": "Online",
+      "achievements": [
+        "صانعة الشهر",
+        "التزام عال"
+      ],
+      "joinedAt": "2025-09-01",
+      "lastActive": "2026-05-30T02:08:08.424Z",
+      "metrics": {
+        "tasksDone": 38,
+        "tasksTarget": 42,
+        "quality": 93,
+        "deliverySpeed": 88,
+        "commitment": 91,
+        "attendanceRate": 94,
+        "meetingsAttended": 9,
+        "lateCount": 1,
+        "absentCount": 0,
+        "interaction": 86,
+        "dailyActivity": 89,
+        "comments": 58,
+        "contributions": 34
+      },
+      "trend": [
+        68,
+        71,
+        76,
+        79,
+        83,
+        91
+      ],
+      "weekly": [
+        4,
+        7,
+        6,
+        8,
+        9,
+        5,
+        3
+      ]
+    },
+    {
+      "id": "m2",
+      "userId": "u-m2",
+      "name": "آدم الراشد",
+      "title": "منتج فيديو",
+      "department": "الإنتاج",
+      "role": "Member",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=320&q=80",
+      "status": "Online",
+      "achievements": [
+        "سرعة إنجاز"
+      ],
+      "joinedAt": "2025-09-01",
+      "lastActive": "2026-05-30T02:15:06.646Z",
+      "metrics": {
+        "tasksDone": 34,
+        "tasksTarget": 42,
+        "quality": 89,
+        "deliverySpeed": 91,
+        "commitment": 85,
+        "attendanceRate": 88,
+        "meetingsAttended": 9,
+        "lateCount": 1,
+        "absentCount": 1,
+        "interaction": 82,
+        "dailyActivity": 84,
+        "comments": 49,
+        "contributions": 29
+      },
+      "trend": [
+        68,
+        71,
+        76,
+        79,
+        83,
+        86
+      ],
+      "weekly": [
+        4,
+        7,
+        6,
+        8,
+        9,
+        5,
+        3
+      ]
+    },
+    {
+      "id": "m3",
+      "userId": "u-m3",
+      "name": "سارة العلي",
+      "title": "مصممة رقمية",
+      "department": "التصميم",
+      "role": "Member",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=320&q=80",
+      "status": "Busy",
+      "achievements": [
+        "جودة ذهبية"
+      ],
+      "joinedAt": "2025-09-01",
+      "lastActive": "2026-05-30T02:19:48.016Z",
+      "metrics": {
+        "tasksDone": 31,
+        "tasksTarget": 42,
+        "quality": 95,
+        "deliverySpeed": 84,
+        "commitment": 88,
+        "attendanceRate": 83,
+        "meetingsAttended": 8,
+        "lateCount": 1,
+        "absentCount": 1,
+        "interaction": 91,
+        "dailyActivity": 90,
+        "comments": 53,
+        "contributions": 31
+      },
+      "trend": [
+        68,
+        71,
+        76,
+        79,
+        83,
+        90
+      ],
+      "weekly": [
+        4,
+        7,
+        6,
+        8,
+        9,
+        5,
+        3
+      ]
+    },
+    {
+      "id": "m4",
+      "userId": "u-m4",
+      "name": "نور الحربي",
+      "title": "راصدة إعلامية",
+      "department": "الرصد",
+      "role": "Member",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=320&q=80",
+      "status": "Offline",
+      "achievements": [
+        "حضور ثابت"
+      ],
+      "joinedAt": "2025-09-01",
+      "lastActive": "2026-05-30T02:02:47.971Z",
+      "metrics": {
+        "tasksDone": 29,
+        "tasksTarget": 42,
+        "quality": 84,
+        "deliverySpeed": 80,
+        "commitment": 86,
+        "attendanceRate": 89,
+        "meetingsAttended": 9,
+        "lateCount": 1,
+        "absentCount": 1,
+        "interaction": 76,
+        "dailyActivity": 81,
+        "comments": 43,
+        "contributions": 25
+      },
+      "trend": [
+        68,
+        71,
+        76,
+        79,
+        83,
+        83
+      ],
+      "weekly": [
+        4,
+        7,
+        6,
+        8,
+        9,
+        5,
+        3
+      ]
+    },
+    {
+      "id": "m5",
+      "userId": "u-m5",
+      "name": "مازن جابر",
+      "title": "منسق نشر",
+      "department": "النشر",
+      "role": "Member",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=320&q=80",
+      "status": "Online",
+      "achievements": [
+        "نشر سريع"
+      ],
+      "joinedAt": "2025-09-01",
+      "lastActive": "2026-05-30T01:54:01.390Z",
+      "metrics": {
+        "tasksDone": 42,
+        "tasksTarget": 42,
+        "quality": 87,
+        "deliverySpeed": 92,
+        "commitment": 80,
+        "attendanceRate": 81,
+        "meetingsAttended": 8,
+        "lateCount": 2,
+        "absentCount": 1,
+        "interaction": 78,
+        "dailyActivity": 79,
+        "comments": 37,
+        "contributions": 22
+      },
+      "trend": [
+        68,
+        71,
+        76,
+        79,
+        83,
+        82
+      ],
+      "weekly": [
+        4,
+        7,
+        6,
+        8,
+        9,
+        5,
+        3
+      ]
+    },
+    {
+      "id": "m6",
+      "userId": "u-m6",
+      "name": "ريم فهد",
+      "title": "محللة أداء",
+      "department": "التحليلات",
+      "role": "Member",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=320&q=80",
+      "status": "Online",
+      "achievements": [
+        "تحليل متقدم",
+        "تفاعل نشط"
+      ],
+      "joinedAt": "2025-09-01",
+      "lastActive": "2026-05-30T02:20:50.882Z",
+      "metrics": {
+        "tasksDone": 28,
+        "tasksTarget": 42,
+        "quality": 91,
+        "deliverySpeed": 86,
+        "commitment": 93,
+        "attendanceRate": 92,
+        "meetingsAttended": 9,
+        "lateCount": 1,
+        "absentCount": 0,
+        "interaction": 89,
+        "dailyActivity": 91,
+        "comments": 61,
+        "contributions": 36
+      },
+      "trend": [
+        68,
+        71,
+        76,
+        79,
+        83,
+        91
+      ],
+      "weekly": [
+        4,
+        7,
+        6,
+        8,
+        9,
+        5,
+        3
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "f7a8a1e4-c795-4286-94d2-f34a02cbbcf7",
+      "title": "تم تحديث ترتيب الشهر",
+      "body": "تم اعتماد نقاط الأداء للأسبوع الأخير وتحديث لوحة الترتيب.",
+      "audience": "all",
+      "type": "rank",
+      "memberId": null,
+      "createdAt": "2026-05-30T02:30:40.829Z",
+      "read": false
+    },
+    {
+      "id": "3ef0e7b3-3c51-4578-bcbc-2861db19377b",
+      "title": "اجتماع فريق الإنتاج",
+      "body": "الاجتماع القادم يوم الثلاثاء الساعة 10:30 صباحًا.",
+      "audience": "all",
+      "type": "calendar",
+      "memberId": null,
+      "createdAt": "2026-05-30T02:30:40.829Z",
+      "read": false
+    },
+    {
+      "id": "0ecb57f4-ac01-47aa-bfcb-8fdec05062d1",
+      "title": "شارة جديدة",
+      "body": "تم منح شارة الالتزام العالي للعضو الأعلى حضورًا.",
+      "audience": "all",
+      "type": "badge",
+      "memberId": null,
+      "createdAt": "2026-05-30T02:30:40.829Z",
+      "read": false
+    }
+  ],
+  "activity": [
+    {
+      "id": "6a8d7566-1e23-43e3-abe3-28fe733a52d5",
+      "actor": "النظام",
+      "action": "تم إنشاء طلب استعادة كلمة مرور لـ unknown@media.local",
+      "createdAt": "2026-05-30T02:35:12.508Z"
+    },
+    {
+      "id": "354a7240-9487-435e-a41a-2c1958e4b071",
+      "actor": "مدير النظام",
+      "action": "حدّث معايير التقييم الشهري",
+      "createdAt": "2026-05-30T02:30:40.829Z"
+    },
+    {
+      "id": "0acc6b4a-b603-4c22-af81-dbb0c7184f82",
+      "actor": "مسؤول النشر",
+      "action": "أضاف مهمة نشر عاجلة",
+      "createdAt": "2026-05-30T02:30:40.829Z"
+    },
+    {
+      "id": "c11a39a2-8269-4fb0-9a00-a52509ef61b7",
+      "actor": "ليان منصور",
+      "action": "أكملت 5 مهام بجودة عالية",
+      "createdAt": "2026-05-30T02:30:40.829Z"
+    }
+  ],
+  "meetings": [
+    {
+      "id": "meet-1",
+      "title": "اجتماع التخطيط الأسبوعي",
+      "date": "2026-06-02",
+      "time": "10:30",
+      "attendance": 92
+    },
+    {
+      "id": "meet-2",
+      "title": "مراجعة الحملة الرقمية",
+      "date": "2026-06-05",
+      "time": "13:00",
+      "attendance": 87
+    },
+    {
+      "id": "meet-3",
+      "title": "ورشة تحسين المحتوى",
+      "date": "2026-06-09",
+      "time": "11:15",
+      "attendance": 94
+    }
+  ]
+}

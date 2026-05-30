@@ -1,0 +1,13 @@
+{
+  "name": "central-media-performance-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Real-time admin, publisher, and member performance platform for the Central Media Office.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
