@@ -596,6 +596,6 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(port, () => {
+server.listen(port, "0.0.0.0", () => {
   console.log(`Central Media Office platform running on http://localhost:${port}`);
 });
